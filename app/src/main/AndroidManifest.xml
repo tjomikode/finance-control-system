@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kpidrugs.com.br.financecontrolsystem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="kpidrugs.com.br.financecontrolsystem.view.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="kpidrugs.com.br.financecontrolsystem.view.AccountActivity" />
+        <activity android:name="kpidrugs.com.br.financecontrolsystem.view.CardActivity" />
+        <activity android:name="kpidrugs.com.br.financecontrolsystem.view.DeleteActivity" />
+        <activity android:name="kpidrugs.com.br.financecontrolsystem.view.SpendingActivity" />
+        <activity android:name="kpidrugs.com.br.financecontrolsystem.view.BalanceActivity" />
+        <activity android:name="kpidrugs.com.br.financecontrolsystem.view.SpendingCategoryActivity" />
+        <activity android:name="kpidrugs.com.br.financecontrolsystem.view.SpendingYearActivity" />
+        <activity android:name="kpidrugs.com.br.financecontrolsystem.view.SpendingMonthActivity" />
+        <activity android:name="kpidrugs.com.br.financecontrolsystem.view.InitialActivity" />
+        <activity android:name="kpidrugs.com.br.financecontrolsystem.view.ConfigurationActivity"></activity>
+
+
+    </application>
+
+</manifest>
